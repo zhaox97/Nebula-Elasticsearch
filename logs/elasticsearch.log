@@ -1,0 +1,27 @@
+[2016-07-12 11:33:28,307][INFO ][node                     ] [Wildboys] version[2.3.4], pid[9063], build[e455fd0/2016-06-30T11:24:31Z]
+[2016-07-12 11:33:28,307][INFO ][node                     ] [Wildboys] initializing ...
+[2016-07-12 11:33:29,088][INFO ][plugins                  ] [Wildboys] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-07-12 11:33:29,123][INFO ][env                      ] [Wildboys] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [15.5gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-07-12 11:33:29,123][INFO ][env                      ] [Wildboys] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-07-12 11:33:29,126][WARN ][env                      ] [Wildboys] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-07-12 11:33:31,572][INFO ][node                     ] [Wildboys] initialized
+[2016-07-12 11:33:31,572][INFO ][node                     ] [Wildboys] starting ...
+[2016-07-12 11:33:31,681][INFO ][transport                ] [Wildboys] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-07-12 11:33:31,687][INFO ][discovery                ] [Wildboys] elasticsearch/S-Mo46jPSRqhnm4y3LywTw
+[2016-07-12 11:33:34,743][INFO ][cluster.service          ] [Wildboys] new_master {Wildboys}{S-Mo46jPSRqhnm4y3LywTw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-12 11:33:34,771][INFO ][http                     ] [Wildboys] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-07-12 11:33:34,771][INFO ][node                     ] [Wildboys] started
+[2016-07-12 11:33:34,802][INFO ][gateway                  ] [Wildboys] recovered [0] indices into cluster_state
+[2016-07-12 11:34:04,766][WARN ][cluster.routing.allocation.decider] [Wildboys] high disk watermark [90%] exceeded on [S-Mo46jPSRqhnm4y3LywTw][Wildboys][/Users/Theo/Desktop/Nebula/elasticsearch/data/elasticsearch/nodes/0] free: 15.5gb[6.6%], shards will be relocated away from this node
+[2016-07-12 11:34:04,767][INFO ][cluster.routing.allocation.decider] [Wildboys] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-07-12 11:34:34,779][WARN ][cluster.routing.allocation.decider] [Wildboys] high disk watermark [90%] exceeded on [S-Mo46jPSRqhnm4y3LywTw][Wildboys][/Users/Theo/Desktop/Nebula/elasticsearch/data/elasticsearch/nodes/0] free: 15.5gb[6.6%], shards will be relocated away from this node
+[2016-07-12 11:35:04,783][WARN ][cluster.routing.allocation.decider] [Wildboys] high disk watermark [90%] exceeded on [S-Mo46jPSRqhnm4y3LywTw][Wildboys][/Users/Theo/Desktop/Nebula/elasticsearch/data/elasticsearch/nodes/0] free: 15.5gb[6.6%], shards will be relocated away from this node
+[2016-07-12 11:35:04,792][INFO ][cluster.routing.allocation.decider] [Wildboys] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-07-12 11:35:34,799][WARN ][cluster.routing.allocation.decider] [Wildboys] high disk watermark [90%] exceeded on [S-Mo46jPSRqhnm4y3LywTw][Wildboys][/Users/Theo/Desktop/Nebula/elasticsearch/data/elasticsearch/nodes/0] free: 15.5gb[6.6%], shards will be relocated away from this node
+[2016-07-12 11:36:04,814][WARN ][cluster.routing.allocation.decider] [Wildboys] high disk watermark [90%] exceeded on [S-Mo46jPSRqhnm4y3LywTw][Wildboys][/Users/Theo/Desktop/Nebula/elasticsearch/data/elasticsearch/nodes/0] free: 15.5gb[6.6%], shards will be relocated away from this node
+[2016-07-12 11:36:04,815][INFO ][cluster.routing.allocation.decider] [Wildboys] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-07-12 11:36:34,821][WARN ][cluster.routing.allocation.decider] [Wildboys] high disk watermark [90%] exceeded on [S-Mo46jPSRqhnm4y3LywTw][Wildboys][/Users/Theo/Desktop/Nebula/elasticsearch/data/elasticsearch/nodes/0] free: 15.5gb[6.6%], shards will be relocated away from this node
+[2016-07-12 11:36:40,798][INFO ][node                     ] [Wildboys] stopping ...
+[2016-07-12 11:36:40,809][INFO ][node                     ] [Wildboys] stopped
+[2016-07-12 11:36:40,809][INFO ][node                     ] [Wildboys] closing ...
+[2016-07-12 11:36:40,813][INFO ][node                     ] [Wildboys] closed
